@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme -->
+    <style name="Base.Theme.Task" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your theme here -->
+        <item name="colorPrimary">@color/color_defalt</item>
+        <item name="colorPrimaryVariant">@color/color_defalt</item>
+        <item name="android:windowBackground">@color/color_defalt</item>
+        <item name="android:windowNoTitle">true</item> <!-- Esconder o título da janela -->
+        <item name="android:windowActionBar">false</item> <!-- Desativar ActionBar -->
+    </style>
+
+    <style name="Theme.Task" parent="Base.Theme.Task" />
+
+    <style name="CustomTabLayout" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

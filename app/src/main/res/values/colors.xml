@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_defalt">#03B6FC</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="color_delete">#FF4C3B</color>
+    <color name="color_edit">#03B6FC</color>
+    <color name="color_details">#04D5C1</color>
+
+    <color name="color_todo">#FF4C3B</color>
+    <color name="color_doing">#03B6FC</color>
+    <color name="color_done">#04D5C1</color>
+    <color name="selected_radio_button_color">#FFFFFF</color>
+
+</resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "434843533541",
+    "project_id": "task-gerenciador-tarefas",
+    "storage_bucket": "task-gerenciador-tarefas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:434843533541:android:7ad75a3c75311b1f04140c",
+        "android_client_info": {
+          "package_name": "com.example.task"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3feGPGoOZtYttoBXZdLtNG_2gwPjDDLw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

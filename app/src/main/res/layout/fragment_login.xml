@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_defalt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.auth.LoginFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/color_defalt"
+        android:gravity="center"
+        android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_email"
+        android:textColor="@color/white"/>
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="email@email.com"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bg_edit"
+        android:padding="14dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/text_password"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="******"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:inputType="textPassword"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bg_edit"
+        android:padding="14dp"/>
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_button"
+        app:backgroundTint="@null"
+        android:layout_marginTop="16dp"
+        android:text="@string/text_btn_login_fragment"
+        android:textAllCaps="false"
+        android:textColor="@color/color_defalt"/>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/btnRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:paddingVertical="8dp"
+        android:text="@string/text_register_account"
+        android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/btnRecover"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingVertical="8dp"
+            android:layout_gravity="right"
+            android:text="@string/text_recover_login_fragment"
+            android:textColor="@color/white" />
+
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            tools:visibility="visible"
+            android:indeterminateTint="@color/white"/>
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
